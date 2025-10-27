@@ -42,20 +42,15 @@ npm start
 
 ## Deployment
 
-### Replit (Quick Start)
+### Vercel (Recommended)
 
-This site is configured to run on Replit:
-
-1. Import this repository to Replit
-2. Replit will automatically detect the configuration files
-3. Click "Run" to start the development server
-4. The site will be available at your Replit URL
-
-### Vercel (Recommended for Production)
+This site is optimized for deployment on Vercel:
 
 1. Push code to GitHub repository
 2. Import project in Vercel
 3. Vercel will automatically detect Next.js and deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/coetredennick/melissatredennick.com)
 
 ## Pages
 
