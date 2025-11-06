@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Specializations() {
   return (
@@ -13,12 +14,28 @@ export default function Specializations() {
         </div>
       </section>
 
-      {/* Introduction */}
+      {/* Introduction with Photo */}
       <section className="section-container">
-        <div className="max-w-4xl mx-auto text-center mb-16">
-          <p className="text-lg text-gray-700">
-            My specializations are deeply informed by my personal journey as a long-term caregiver and my professional training in psychology. I bring both empathy and expertise to support individuals and families facing medical trauma and the unique challenges of caregiving.
-          </p>
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <p className="text-lg text-gray-700 mb-6">
+                My specializations are deeply informed by my personal journey as a long-term caregiver and my professional training in psychology. I bring both empathy and expertise to support individuals and families facing medical trauma and the unique challenges of caregiving.
+              </p>
+              <p className="text-lg text-gray-700">
+                Through my lived experience and professional training, I understand the profound impact these challenges have on every aspect of life—and I'm here to help you find your path forward.
+              </p>
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <Image
+                src="/IMG_3061.jpeg"
+                alt="Melissa with her daughter"
+                width={600}
+                height={600}
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
         </div>
       </section>
 

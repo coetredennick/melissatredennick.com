@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Services() {
   return (
@@ -13,14 +14,29 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Services Overview */}
+      {/* Services Overview with Photo */}
       <section className="section-container">
-        <div className="max-w-4xl mx-auto text-center mb-16">
-          <p className="text-lg text-gray-700">
-            I offer a range of therapeutic services designed to support you through life's challenges.
-            Whether you're navigating trauma, seeking personal growth, or needing support as a caregiver,
-            I'm here to help you find your path to healing and resilience.
-          </p>
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+            <div className="rounded-lg overflow-hidden shadow-xl order-2 md:order-1">
+              <Image
+                src="/IMG_3066.jpg"
+                alt="Melissa with her daughter at a formal event"
+                width={600}
+                height={600}
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="order-1 md:order-2">
+              <p className="text-lg text-gray-700 mb-6">
+                I offer a range of therapeutic services designed to support you through life's challenges.
+              </p>
+              <p className="text-lg text-gray-700">
+                Whether you're navigating trauma, seeking personal growth, or needing support as a caregiver,
+                I'm here to help you find your path to healing and resilience.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Individual Counseling */}
