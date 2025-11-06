@@ -199,8 +199,8 @@ export default function Contact() {
                     </svg>
                     <div>
                       <p className="font-medium text-gray-900">Phone</p>
-                      <a href="tel:713-502-3457" className="text-accent-600 hover:text-accent-700">
-                        713-502-3457
+                      <a href="tel:713-800-3687" className="text-accent-600 hover:text-accent-700">
+                        713-800-3687
                       </a>
                     </div>
                   </div>

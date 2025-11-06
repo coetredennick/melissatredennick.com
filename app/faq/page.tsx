@@ -304,8 +304,8 @@ export default function FAQ() {
               <Link href="/contact" className="btn-primary">
                 Contact Me
               </Link>
-              <a href="tel:713-502-3457" className="btn-secondary">
-                Call: 713-502-3457
+              <a href="tel:713-800-3687" className="btn-secondary">
+                Call: 713-800-3687
               </a>
             </div>
           </div>

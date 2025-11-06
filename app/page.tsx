@@ -174,8 +174,8 @@ export default function Home() {
             <Link href="/contact" className="bg-white text-accent-600 hover:bg-accent-50 font-medium py-3 px-8 rounded-lg transition-colors duration-200 text-lg">
               Get in Touch
             </Link>
-            <a href="tel:713-502-3457" className="bg-accent-700 hover:bg-accent-800 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 text-lg">
-              Call: 713-502-3457
+            <a href="tel:713-800-3687" className="bg-accent-700 hover:bg-accent-800 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 text-lg">
+              Call: 713-800-3687
             </a>
           </div>
         </div>

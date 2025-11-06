@@ -21,8 +21,8 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4 text-white">Contact</h4>
             <div className="space-y-2 text-primary-100">
               <p>
-                <a href="tel:713-502-3457" className="hover:text-white transition-colors">
-                  713-502-3457
+                <a href="tel:713-800-3687" className="hover:text-white transition-colors">
+                  713-800-3687
                 </a>
               </p>
               <p>
