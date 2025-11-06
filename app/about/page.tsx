@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -16,6 +17,18 @@ export default function About() {
       {/* Main Content */}
       <section className="section-container">
         <div className="max-w-4xl mx-auto">
+          {/* Family Photo */}
+          <div className="mb-12 rounded-lg overflow-hidden shadow-xl">
+            <Image
+              src="/main.jpg"
+              alt="Melissa Tredennick with her family"
+              width={1200}
+              height={800}
+              className="w-full h-auto"
+              priority
+            />
+          </div>
+
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-gray-700 mb-8">
               Hi, I'm Melissa Tredennick, and I'm thrilled to announce the opening of my private counseling practice.

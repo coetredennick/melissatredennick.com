@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -27,19 +28,31 @@ export default function Home() {
 
       {/* Introduction Section */}
       <section className="section-container">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="mb-6">Meet Melissa</h2>
-          <p className="text-lg text-gray-700 mb-6">
-            Hi, I'm Melissa Tredennick, and I'm thrilled to announce the opening of my private counseling practice.
-          </p>
-          <p className="text-lg text-gray-700 mb-6">
-            I am passionate about supporting caregivers and individuals navigating medical trauma.
-            As the wife of a paraplegic for over 22 years, I have lived through the daily challenges trauma brings—and the resilience it can inspire.
-            My personal journey through marriage, parenting, and life's complexities has given me a profound understanding of the struggles, life coaching, EMDR and more through both in person and virtual visits.
-          </p>
-          <p className="text-lg text-gray-700 mb-8">
-            My graduate degree in psychology equips me to guide others with empathy and expertise. Whether you are seeking support to heal, grow, or tackle life's hurdles, I am here to help.
-          </p>
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="mb-6">Meet Melissa</h2>
+              <p className="text-lg text-gray-700 mb-6">
+                Hi, I'm Melissa Tredennick, and I'm thrilled to announce the opening of my private counseling practice.
+              </p>
+              <p className="text-lg text-gray-700 mb-6">
+                I am passionate about supporting caregivers and individuals navigating medical trauma.
+                As the wife of a paraplegic for over 22 years, I have lived through the daily challenges trauma brings—and the resilience it can inspire.
+              </p>
+              <p className="text-lg text-gray-700 mb-8">
+                My graduate degree in psychology equips me to guide others with empathy and expertise. Whether you are seeking support to heal, grow, or tackle life's hurdles, I am here to help.
+              </p>
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-xl">
+              <Image
+                src="/IMG_3065.jpeg"
+                alt="Melissa Tredennick with her family"
+                width={800}
+                height={800}
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
